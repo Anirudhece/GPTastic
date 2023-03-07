@@ -1,0 +1,49 @@
+.OutlinedCardParent{
+  display: flex;
+  justify-content: center;
+  .OutlinedCard{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    border: 2px solid #ecf0f9;
+    border-radius: 30px;
+    // background: rgb(242, 247, 251);
+    // border: 2px solid rgb(236, 240, 249);
+    // border: 1px solid rgb(85, 120, 248);
+      &:hover{
+      transition:transform 0.5s ;
+      transform: translateY(-5px) scale(1.1);
+      box-shadow:0px 0px 30px 0px #d4a4e5;
+
+    }
+    .OutlinedCard-name{
+      font-weight: 700;
+      font-size:1rem;
+      color: rgb(2, 2, 2);
+      padding: 10px;
+    }
+    .OutlinedCard-description{
+      font-family: Helvetica;
+      letter-spacing: -0.65px;
+      font-size: 0.8rem;
+      color: #736565;
+    }
+  }
+}
+.content{
+  textarea{
+    min-height: 32.5vh;
+    min-width: 50vw;
+  }
+  // .content-result{
+  //   display: flex;
+  //   justify-content: center;
+  //   width: 80%;
+  //   border: 1px solid rgb(85, 120, 248);
+  //   // text-align: left;
+  // }
+  .content--btn{
+    margin: 10px;
+  }
+  
+}

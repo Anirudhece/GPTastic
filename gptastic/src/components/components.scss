@@ -1,0 +1,35 @@
+.navbar{
+  margin-bottom: 30px;
+  display: flex;
+  padding-top: 20px;
+  font-weight: bolder;
+  .navbar-logo{
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 5px;
+    &:hover{
+      transition: transform 0.5s ease-in-out;
+      transform: rotate(180deg);
+      cursor: pointer;
+    }
+  }
+  .navbar-name{
+    display:flex;
+    float: left;
+    align-items: center;
+    &:hover{
+      transform: rotate(360deg);
+    }
+  }
+}
+.footer{
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  word-spacing: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:white
+}
